@@ -1,0 +1,42 @@
+{
+  "name": "react-timepicker-clock",
+  "version": "1.0.0",
+  "description": "A React time picker clock UI component",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.cjs.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "timepicker",
+    "clock",
+    "ui"
+  ],
+  "author": "Aryan Barde",
+  "license": "MIT",
+  "peerDependencies": {
+    "dayjs": "^1.10.0",
+    "prop-types": "^15.8.0",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "vite": "^5.4.18",
+    "vite-plugin-dts": "^3.9.1"
+  },
+  "files": [
+    "dist"
+  ]
+}
