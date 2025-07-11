@@ -1,8 +1,6 @@
 
 # ⏰ react-clockify
 
-![Time Picker Demo](./demo.png)
-
 > A sleek, customizable, and mobile-friendly time picker component for React.  
 Perfect for dashboards, forms, and scheduling interfaces.
 
