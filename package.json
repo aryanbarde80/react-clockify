@@ -1,7 +1,7 @@
 {
-  "name": "react-timepicker-clock",
+  "name": "react-clockify",
   "version": "1.0.0",
-  "description": "A React time picker clock UI component",
+  "description": "A sleek, customizable, and mobile-friendly React time picker clock UI component",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.es.js",
   "types": "./dist/index.d.ts",
@@ -19,9 +19,12 @@
   },
   "keywords": [
     "react",
-    "timepicker",
     "clock",
-    "ui"
+    "timepicker",
+    "time",
+    "react-component",
+    "clock-ui",
+    "clockify"
   ],
   "author": "Aryan Barde",
   "license": "MIT",
