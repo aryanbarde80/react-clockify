@@ -1,77 +1,76 @@
-/* src/TimePickerClock.css */
-.time-picker-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 50;
-  }
-  
-  .time-picker-header {
-    background-color: #f97316;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-    position: relative;
-  }
-  
-  .time-display {
-    font-size: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-  }
-  
-  .time-display span {
-    cursor: pointer;
-  }
-  
-  .time-display .opacity-70 {
-    opacity: 0.7;
-  }
-  
-  .ampm-buttons {
-    position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
-  }
-  
-  .ampm-button {
-    padding: 0.25rem 0.5rem;
-    font-size: 0.875rem;
-    border-radius: 0.25rem;
-    color: white;
-    background: none;
-    border: none;
-  }
-  
-  .ampm-button-active {
-    background-color: white;
-    color: #f97316;
-    font-weight: bold;
-  }
-  
-  .clock-face {
-    position: relative;
-    width: 16rem;
-    height: 16rem;
-    margin: 0 auto;
-  }
-  
-  .clock-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color: #f3f4f6;
-  }
+.react-clockify-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+}
+
+.react-clockify-header {
+  background-color: #f97316;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.react-clockify-time {
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.react-clockify-time span {
+  cursor: pointer;
+}
+
+.opacity-70 {
+  opacity: 0.7;
+}
+
+.react-clockify-ampm {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.react-clockify-ampm button {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  border-radius: 0.25rem;
+  color: white;
+  background: none;
+  border: none;
+}
+
+.react-clockify-ampm .active {
+  background-color: white;
+  color: #f97316;
+  font-weight: bold;
+}
+
+.clock-face {
+  position: relative;
+  width: 16rem;
+  height: 16rem;
+  margin: 0 auto;
+}
+
+.clock-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #f3f4f6;
+}
